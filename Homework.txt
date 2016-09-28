@@ -34,7 +34,15 @@ lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'P
 
 
 5. Add 'Airport' to the start of the array 
+
+  lines.insert(0, "Airport")
+  lines.unshift("Airport")
+
 6. Add 'York Place' to the end of the array
+
+  lines.push("York Place")
+  lines << "York Place"
+
 7. Remove 'Edinburgh Park' from the array using its name 
 8. Delete 'Edinburgh Park' from the array by index
 9. Reverse the positions of the stops in the array
