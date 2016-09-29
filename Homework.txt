@@ -187,12 +187,14 @@ lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'P
 10. Add a pet dog to Erik called "Fluffy"
 
   users["Erik"][:pets][:Fluffy] = "dog"
+
   (note, if the key was the kind of animal instead of the animal's name, you can create an array for each value of dog, for example. This would allow you to pick out, say, all the dogs, cats or snakes in the hash.
   So you'd have users["Erik"][:pets][:dog]=["Fluffy", "Rover"])
 
 11. Add yourself to the users hash
 
-  See hash above.
+  See hash above.... just kidding:
+  users["Paul"] = [:twitter => "paulmilne55", :favourite_numbers => [3, 5, 7], :home_town => "Dunbar", :pets => [:minnie => "cat"]]
 
 
 
